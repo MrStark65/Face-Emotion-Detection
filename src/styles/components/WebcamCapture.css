@@ -1,0 +1,14 @@
+.webcam-container {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .webcam-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
