@@ -1,74 +1,73 @@
-<<<<<<< HEAD
-# Face-Emotion-Detection-
-=======
-# Getting Started with Create React App
+Face Emotion Detection 🎭
+This project is a Face Emotion Detection system built with React.js and Machine Learning. It detects and classifies facial emotions in real-time using a webcam.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📌 Features
+✅ Detects emotions like Happy, Sad, Angry, Neutral, Surprised, etc.
+✅ Uses React.js for the front-end UI
+✅ Webcam integration for real-time face tracking
+✅ Modular component-based structure
 
-## Available Scripts
+🚀 Getting Started
 
-In the project directory, you can run:
+1️⃣ Install Dependencies
 
-### `npm start`
+git clone https://github.com/MrStark65/Face-Emotion-Detection.git
+cd Face-Emotion-Detection
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2️⃣ Start the Application
 
-### `npm test`
+npm start
+Runs the app in development mode.
+Open http://localhost:3000 to view it in your browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+📂 Project Structure
+Face-Emotion-Detection/
+│
+├── build/             # Compiled production files
+├── node_modules/      # Installed dependencies
+├── public/            # Static files
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   ├── robots.txt
+│
+├── src/               # Main source code
+│   ├── components/    
+│   │   ├── EmotionDetector.js      # Main detection logic
+│   │   ├── EmotionDisplay.js       # Renders detected emotions
+│   │   ├── LoadingSpinner.js       # Loading animation
+│   │   ├── WebcamCapture.js        # Handles webcam input
+│   │
+│   ├── config/                     # (Future) Config files
+│   ├── styles/                     # CSS styles
+│   ├── utils/                      # Utility functions
+│   ├── App.js                      # Main App component
+│   ├── index.js                    # Entry point
+│   ├── index.css                    # Global styles
+│
+├── package.json       # Project dependencies
+├── package-lock.json  # Lock file
+├── README.md          # Project documentation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📸 How It Works?
+1️⃣ User grants camera access
+2️⃣ WebcamCapture.js captures face images
+3️⃣ EmotionDetector.js processes emotions
+4️⃣ EmotionDisplay.js shows results
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🤝 Contributing
+Feel free to fork and submit a pull request! 🚀
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📢 Next Steps
+🛠️ Integrate a Machine Learning API for better accuracy
+🎨 Improve UI/UX design
+📈 Optimize performance for real-time analysis
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> a5caf9c (Initial commit)
+git pull origin main  # Get latest changes
+git add README.md
+git commit -m "Updated README with correct project details"
+git push origin main
